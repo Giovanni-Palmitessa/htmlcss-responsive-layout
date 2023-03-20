@@ -151,6 +151,13 @@ nav{
     color: var(--blue);
 }
 
+.content .content-left p{
+    color: grey;
+    font-weight: bold;
+    line-height: 25px;
+    font-size: 0.8rem;
+}
+
 .btn-blue{
     align-self: flex-start;
 }
@@ -164,12 +171,13 @@ nav{
     padding-top: 3rem;
 }
 
-.content p{
+.content.jobs p{
     color: grey;
     font-weight: bold;
     text-align: center;
     line-height: 25px;
     font-size: 0.8rem;
+    padding-bottom: 1.5rem;
 }
 
 .jobs{
