@@ -49,6 +49,10 @@ a{
     background-color: var(--blue);
 }
 
+.btn-purple{
+    background-color: var(--purple);
+}
+
 .purple{
     background-color: var(--purple);
     padding-top: 5rem;
@@ -320,6 +324,45 @@ nav{
     padding-top: 2rem;
 }
 
+/* benefits section */
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.card{
+    width: calc((100% - 1rem * 2) / 3);
+    background-color: white;
+    border-radius: 20px;
+    padding-inline: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.number{
+    font-size: 3rem;
+    font-weight: bolder;
+    color: var(--purple);
+    padding-top: 2rem;
+}
+
+.benefit-title{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: var(--purple);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.btn.btn-purple{
+    align-self: flex-start;
+    color: white;
+    padding-inline: 40px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
 
 
 
