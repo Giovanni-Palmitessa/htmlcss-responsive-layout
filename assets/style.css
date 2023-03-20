@@ -14,6 +14,7 @@ html{
     --purple: #9792E4;
     --yellow: #FDC15F;
     --cyan: #B5DDFF;
+    --black: #333333;
 }
 
 /* Common */
@@ -478,6 +479,24 @@ nav{
     padding: 20px;
 }
 
+/* Footer */
+
+footer{
+    background-color: var(--black);
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.ftr{
+    color:white;
+    padding-inline: 7rem;
+}
+
+.ftr p{
+    padding-bottom: 3rem;
+    font-size: 0.7rem;
+    line-height: 20px;
+}
 
 
 
