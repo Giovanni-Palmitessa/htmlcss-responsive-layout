@@ -326,8 +326,16 @@ nav{
 
 /* benefits section */
 
+.benefits h2{
+    color:white;
+    font-size: 2rem;
+    padding-bottom: 4rem;
+
+}
+
 .cards{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     gap: 1rem;
 }
