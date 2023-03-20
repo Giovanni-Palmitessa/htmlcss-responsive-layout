@@ -159,13 +159,34 @@ nav{
 }
 
 .content-right img{
-    width: 250px;
+    width: 200px;
+    padding-top: 3rem;
 }
 
 .content p{
     color: grey;
     font-weight: bold;
+    text-align: center;
+    line-height: 18px;
 }
 
+.jobs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem
+}
+
+.big-icon{
+    color: var(--blue);
+    font-size: 4rem;
+    padding-top: 2rem;
+}
+
+.icon-title{
+    color: var(--blue);
+    gap: 1rem
+}
 
 
