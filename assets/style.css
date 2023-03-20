@@ -15,14 +15,31 @@ html{
     --yellow: #FDC15F;
 }
 
+/* Common */
+
 ul{
     list-style: none;
+}
+
+a{
+    text-decoration: none;
 }
 
 .container{
     max-width: 1150px;
     margin-inline: auto;
 }
+
+.btn{
+    padding: 8px 16px;
+    border-radius: 30px;
+}
+
+.btn-white{
+    background-color: white;
+}
+
+/* Header */
 
 nav{
     height: 80px;
@@ -47,7 +64,15 @@ nav{
 
 .link-right{
     display: flex;
-    gap: 1rem
+    gap: 2rem
+}
+
+.link-right li a{
+    color: white;
+}
+
+.link-right .btn-white {
+    color: black;
 }
 
 .menu{
