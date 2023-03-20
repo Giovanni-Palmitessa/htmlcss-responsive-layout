@@ -14,3 +14,19 @@ html{
     --purple: #9792E4;
     --yellow: #FDC15F;
 }
+
+.container{
+    max-width: 1150px;
+    margin-inline: auto;
+}
+
+nav{
+    height: 80px;
+    background-color: var(--blue);
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
