@@ -52,6 +52,7 @@ a{
 .purple{
     background-color: var(--purple);
     padding-top: 5rem;
+    padding-bottom: 3rem;
 }
 
 /* Header */
@@ -237,7 +238,7 @@ nav{
     flex-direction: column;
     align-items: center;
     gap: 2rem;
-    padding-inline: 3rem;
+    padding-inline: 2rem;
     flex-basis: 50%;
     margin-top: 100px;
 }
