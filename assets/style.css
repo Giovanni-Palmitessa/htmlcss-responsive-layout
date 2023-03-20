@@ -13,6 +13,7 @@ html{
     --lightblue: #B5DDFF;
     --purple: #9792E4;
     --yellow: #FDC15F;
+    --cyan: #B5DDFF;
 }
 
 /* Common */
@@ -116,7 +117,7 @@ nav{
 
 .cell {
 	flex-basis: 33.3333%;
-	padding: 0 calc(var(--gapx) / 2) var(--gapy);
+	padding: 0 calc(var(--gapx) / 2) var(--gapy);    
 }
 
 .cell-big {
@@ -125,14 +126,24 @@ nav{
 
 .content{
     display: flex;
+    background-color: var(--cyan);
+    border-radius: 20px;
+
 }
 
 .content-left{
-    padding-inline: 1rem;
+    padding-inline: 2rem;
     padding-top: 2rem;
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    flex-basis: 50%;
+}
+
+.content-right{
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
 }
 
 .content-left h3{
@@ -148,7 +159,12 @@ nav{
 }
 
 .content-right img{
-    width: 100%;
+    width: 250px;
+}
+
+.content p{
+    color: grey;
+    font-weight: bold;
 }
 
 
