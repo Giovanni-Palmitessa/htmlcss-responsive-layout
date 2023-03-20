@@ -117,7 +117,8 @@ nav{
 
 .cell {
 	flex-basis: 33.3333%;
-	padding: 0 calc(var(--gapx) / 2) var(--gapy);    
+	padding: 0 calc(var(--gapx) / 2) var(--gapy);  
+    display: flex; 
 }
 
 .cell-big {
