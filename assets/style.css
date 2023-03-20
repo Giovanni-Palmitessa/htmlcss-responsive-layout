@@ -39,11 +39,16 @@ a{
     background-color: white;
 }
 
+.btn-blue{
+    background-color: var(--blue);
+}
+
 /* Header */
 
 nav{
     height: 80px;
     background-color: var(--blue);
+    margin-bottom: 3rem;
 }
 
 .navbar{
@@ -78,4 +83,73 @@ nav{
 .menu{
     display: none;
 }
+
+.grid {
+	--gapx: 1rem;
+	--gapy: 2rem;
+}
+
+.cells {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+/* .cell .content {
+	height: 200px;
+} */
+
+/* .cell:nth-child(odd) .content {
+	background-color: salmon;
+}
+
+.cell:nth-child(even) .content {
+	background-color: gold;
+}  */
+
+.grid {
+	overflow: hidden;
+}
+
+.cells {
+	margin: 0 calc(-1 * var(--gapx) / 2) calc(-1 * var(--gapy));
+}
+
+.cell {
+	flex-basis: 33.3333%;
+	padding: 0 calc(var(--gapx) / 2) var(--gapy);
+}
+
+.cell-big {
+	flex-basis: 66.6666%;
+}
+
+.content{
+    display: flex;
+}
+
+.content-left{
+    padding-inline: 1rem;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.content-left h3{
+    color: var(--blue);
+}
+
+.btn-blue{
+    align-self: flex-start;
+}
+
+#white-apple{
+    color: white;
+}
+
+.content-right img{
+    width: 100%;
+}
+
+
 
