@@ -55,6 +55,11 @@ a{
     padding-bottom: 3rem;
 }
 
+.white{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
 /* Header */
 
 header{
@@ -204,6 +209,8 @@ nav{
 
 /* Main */
 
+/* Plan section */
+
 .plan1{
     display: flex;
     justify-content: space-between;
@@ -261,3 +268,57 @@ nav{
     justify-content: center;
     align-items: center;
 }
+
+/* Testimonials Section  */
+
+.container.testimonials p, h2{
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.container.testimonials p{
+    font-size: 1.5rem;
+    padding-bottom: 3rem;
+}
+
+
+.container.testimonials h2{
+    color: var(--purple);
+}
+
+.testimonial{
+    display: flex;
+    background-color: var(--purple);
+    border-radius: 20px;
+    padding: 2rem 1rem;
+}
+
+.image{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 2rem;
+}
+
+.image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.comments{
+    flex-basis: 80%;
+    color: white;
+    line-height: 30px;
+}
+
+.name{
+    font-size: 1rem;
+    font-weight: bold;
+    padding-top: 2rem;
+}
+
+
+
+
