@@ -36,6 +36,11 @@ a{
     margin-inline: auto;
 }
 
+.container-smaller{
+    max-width: 1000px;
+    margin-inline: auto;
+}
+
 .btn{
     padding: 8px 16px;
     border-radius: 30px;
@@ -275,19 +280,17 @@ nav{
 
 /* Testimonials Section  */
 
-.container.testimonials p, h2{
-    text-align: center;
-    padding-bottom: 2rem;
-}
-
 .container.testimonials p{
+    text-align: center;
     font-size: 1.5rem;
     padding-bottom: 3rem;
 }
 
 
 .container.testimonials h2{
+    text-align: center;
     color: var(--purple);
+    padding-bottom: 3rem;
 }
 
 .testimonial{
@@ -330,6 +333,7 @@ nav{
     color:white;
     font-size: 2rem;
     padding-bottom: 4rem;
+    text-align: center;
 
 }
 
@@ -371,6 +375,61 @@ nav{
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
+
+
+/* About Us Section  */
+
+.about-us{
+    display: flex;
+}
+
+.about-left{
+    flex-basis: 80%;
+}
+
+.about-right{
+    flex-basis: 20% ;
+    padding-left: 2rem;
+}
+
+.about-left h2{
+    font-size: 3rem;
+    color: var(--purple);
+    padding-bottom: 2rem;
+}
+
+.about-left p{
+    line-height: 35px;
+    max-width: 90%;
+    padding-bottom: 1.5rem;
+    font-size: 1.3rem;
+}
+
+.about-image{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.about-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-right h2{
+    color: var(--purple);
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.linkedin{
+    color: white;
+    font-size: 0.7rem;
+}
+
+
 
 
 
