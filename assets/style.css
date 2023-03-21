@@ -412,6 +412,11 @@ nav{
 
 /* About Us Section  */
 
+.virgole{
+    font-size: 100px;
+    color: #9792E4;
+}
+
 .about-us{
     display: flex;
 }
