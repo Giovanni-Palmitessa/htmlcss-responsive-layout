@@ -297,6 +297,7 @@ nav{
     text-align: center;
     font-size: 1.5rem;
     padding-bottom: 3rem;
+    line-height: 30px;
 }
 
 
@@ -304,6 +305,7 @@ nav{
     text-align: center;
     color: var(--purple);
     padding-bottom: 3rem;
+    font-size: 2rem
 }
 
 .testimonial{
@@ -561,5 +563,11 @@ footer{
     .arrow{
         margin-bottom: 2rem;
     }
+
+    /* TESTIMONIALS SECTION */
+
+    .container.testimonials p {
+        font-size: 1rem;
+    }    
 
 }
