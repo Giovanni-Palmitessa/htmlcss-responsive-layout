@@ -570,6 +570,13 @@ footer{
         font-size: 1rem;
     }   
     
-    
+    /* BENEFITS SECTION */
 
+    .cards{
+        gap: 2rem;
+    }
+
+    .card {
+        width: calc((100% - 1rem * 2) / 2);
+    }
 }
