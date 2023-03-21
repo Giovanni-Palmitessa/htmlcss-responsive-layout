@@ -84,10 +84,6 @@ a{
 
 /* Header */
 
-header{
-    padding-bottom: 5rem;
-}
-
 nav{
     height: 80px;
     background-color: var(--blue);
@@ -232,7 +228,8 @@ nav{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1rem
+    gap: 1rem;
+    margin-bottom: 5rem;
 }
 
 .big-icon{
