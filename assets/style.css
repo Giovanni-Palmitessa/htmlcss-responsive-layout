@@ -112,7 +112,22 @@ nav{
 
 .link-right{
     display: flex;
-    gap: 2rem
+    gap: 2rem;
+    height: 100%;
+}
+
+.link-right li {
+    display: flex;
+    align-items: center;
+}
+
+.link-right li:hover{
+    background-color:#b5dcff77;
+    cursor: pointer;
+}
+
+#login:hover{
+    background-color: var(--blue);
 }
 
 .link-right li a{
@@ -198,7 +213,7 @@ nav{
 
 .content-right img{
     min-width: 0;
-    width: 200px;
+    width: 60%;
     padding-top: 3rem;
     align-self: flex-end;
 }
@@ -490,6 +505,10 @@ nav{
     padding: 20px;
 }
 
+.privacy{
+    text-decoration: underline;
+}
+
 /* Footer */
 
 footer{
@@ -507,6 +526,11 @@ footer{
     padding-bottom: 3rem;
     font-size: 0.7rem;
     line-height: 20px;
+}
+
+.underline{
+    text-decoration: underline;
+    color: var(--purple);
 }
 
 /* DESKTOP FIRST */
@@ -537,6 +561,10 @@ footer{
 
     .jobs{
         text-align: center;
+    }
+
+    .content.jobs p {
+        padding-inline: 2rem;
     }
 
     .icon-title{
