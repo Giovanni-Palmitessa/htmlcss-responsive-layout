@@ -411,12 +411,6 @@ nav{
 
 
 /* About Us Section  */
-
-.virgole{
-    font-size: 100px;
-    color: #9792E4;
-}
-
 .about-us{
     display: flex;
 }
@@ -446,14 +440,22 @@ nav{
 .about-image{
     width: 200px;
     height: 200px;
-    border-radius: 50%;
-    overflow: hidden;
+    position: relative;
+}
+
+.virgole{
+    font-size: 170px;
+    color: #9792E4;
+    position: absolute;
+    right: 0px;
+    top: -25px;
 }
 
 .about-image img{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 50%;
 }
 
 .about-right h2{
@@ -732,6 +734,11 @@ footer{
     .about-image {
         width: 150px;
         height: 150px;
+    }
+
+    .virgole{
+        font-size: 125px;
+        top: -20px;
     }
 
     .btn-purple{
