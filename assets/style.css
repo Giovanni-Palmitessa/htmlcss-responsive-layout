@@ -511,6 +511,8 @@ footer{
 
 /* DESKTOP FIRST */
 
+/* TABLET */
+
 @media screen and (max-width: 768px) {    
     /* NAVBAR */
     
@@ -617,6 +619,26 @@ footer{
     }
 }
 
+/* MOBILE */
+
 @media screen and (max-width: 480px) {
-    
+    /* JOBS SECTION */
+
+    .container {
+        max-width: 400px;
+    }    
+
+    .cells{
+        display: block;
+    }
+
+    .content-right{
+        justify-content: center;
+    }
+
+    .content-right img {
+        width: 60%;
+    }
+
+
 }
