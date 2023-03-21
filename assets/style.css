@@ -59,6 +59,8 @@ a{
 
 .btn-white{
     background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .btn-blue{
@@ -589,5 +591,23 @@ footer{
 
     .about-left p {
         font-size: 1rem;
+    }
+
+    /* GET STARTED SECTION */
+
+    .container-smallest {
+        max-width: 600px;
+    }
+
+    .container-smallest .get-started h6 {
+        font-size: 1.2rem;
+    }
+
+    .container-smallest .get-started h3 {
+        font-size: 2.5rem;
+    }
+
+    .container-smallest .get-started h2 {
+        font-size: 5rem;
     }
 }
