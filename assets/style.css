@@ -610,4 +610,9 @@ footer{
     .container-smallest .get-started h2 {
         font-size: 5rem;
     }
+
+    
+    .container-smallest .get-started p {
+        font-size: 0.9rem;
+    }
 }
