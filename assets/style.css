@@ -191,8 +191,10 @@ nav{
 }
 
 .content-right img{
+    min-width: 0;
     width: 200px;
     padding-top: 3rem;
+    align-self: flex-end;
 }
 
 .content.jobs p{
@@ -314,6 +316,7 @@ nav{
     border-radius: 50%;
     overflow: hidden;
     margin-right: 2rem;
+    flex: 0 0 auto;
 }
 
 .image img{
@@ -498,8 +501,11 @@ footer{
     line-height: 20px;
 }
 
+/* DESKTOP FIRST */
 
-
+@media screen and (max-width: 768px) {
+    
+}
 
 
 
