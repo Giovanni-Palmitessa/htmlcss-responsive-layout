@@ -53,7 +53,7 @@ a{
 }
 
 .btn{
-    padding: 8px 16px;
+    padding: 8px 45px;
     border-radius: 30px;
 }
 
@@ -514,6 +514,24 @@ footer{
 
     .menu{
         display: block;
+        color: white;
+    }
+
+    .content{
+        display: block;
+    }
+
+    .content-right{
+        justify-content: flex-start;
+    }
+
+    .jobs{
+        text-align: center;
+    }
+
+    .icon-title{
+        padding-top: 1.2rem;
+        padding-bottom: 1.2rem;
     }
 }
 
