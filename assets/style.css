@@ -508,6 +508,8 @@ footer{
 /* DESKTOP FIRST */
 
 @media screen and (max-width: 768px) {    
+    /* NAVBAR */
+    
     .link-right{
         display: none;
     }
@@ -516,6 +518,8 @@ footer{
         display: block;
         color: white;
     }
+
+    /* JOBS SECTION */
 
     .content{
         display: block;
@@ -533,8 +537,29 @@ footer{
         padding-top: 1.2rem;
         padding-bottom: 1.2rem;
     }
+
+    /* PLANNING SECTION */
+
+    .plan1{
+        display: block;
+    }
+
+    .plan-left img {
+        width: 100%;
+        padding-bottom: 3rem;
+        padding-inline: 2rem;
+    }
+
+    .plan-left h3 {
+        font-size: 3rem;
+    }
+
+    .plan-right img {
+        width: 100%;
+    }
+
+    .arrow{
+        margin-bottom: 2rem;
+    }
+
 }
-
-
-
-
