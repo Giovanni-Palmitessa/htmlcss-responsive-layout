@@ -30,22 +30,26 @@ a{
 .container{
     max-width: 1150px;
     margin-inline: auto;
+    padding-inline: 1rem;
 }
 
 .container-small{
     max-width: 900px;
     margin-inline: auto;
+    padding-inline: 1rem;
 }
 
 .container-smaller{
     max-width: 1000px;
     margin-inline: auto;
+    padding-inline: 1rem;
 }
 
 .container-smallest{
     max-width: 500px;
     margin-inline: auto;
     text-align: center;
+    padding-inline: 1rem;
 }
 
 .btn{
@@ -503,8 +507,14 @@ footer{
 
 /* DESKTOP FIRST */
 
-@media screen and (max-width: 768px) {
-    
+@media screen and (max-width: 768px) {    
+    .link-right{
+        display: none;
+    }
+
+    .menu{
+        display: block;
+    }
 }
 
 
