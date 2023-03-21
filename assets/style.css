@@ -680,4 +680,28 @@ footer{
         width: 100%;
         padding-inline: 3rem;
     }
+
+    /* ABOUT US */
+
+    .about-us{
+        display: block;
+    }
+
+    .about-left p {
+        max-width: 100%;
+    }
+
+    .about-right{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-image {
+        width: 150px;
+        height: 150px;
+    }
+
+    .btn-purple{
+        align-self: flex-start;
+    }
 }
